@@ -1,0 +1,30 @@
+[project]
+name = "balanced-binary-WOA"
+version = "0.1.0"
+description = "balanced-binary-WOA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=24.10.0",
+    "codecarbon>=2.8.3",
+    "fastparquet>=2024.11.0",
+    "isort>=5.13.2",
+    "jupyter>=1.1.1",
+    "latex>=0.7.0",
+    "llvmlite==0.43.0",
+    "numba==0.60.0",
+    "numpy==2.0.2",
+    "pandas>=2.2.3",
+    "pre-commit>=4.0.1",
+    "pyarrow>=18.1.0",
+    "pycatch22>=0.4.5",
+    "pygad>=3.4.0",
+    "scienceplots>=2.1.1",
+    "scikit-learn>=1.6.0",
+    "seaborn>=0.13.2",
+    "stumpy>=1.13.0",
+    "torch>=2.5.1",
+    "tqdm>=4.67.1",
+    "tsfel>=0.1.9",
+    "tsfresh>=0.20.3",
+]
